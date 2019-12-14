@@ -1,4 +1,7 @@
-def main():
-    print("Hello World")
+import sys
+def main(argv):
+    print('\n'.join(argv))
 
-main()
+main(sys.argv)
+
+
